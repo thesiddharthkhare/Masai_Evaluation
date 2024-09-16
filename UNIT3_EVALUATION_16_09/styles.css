@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: None;
+    color: #333;
+    margin-right: 20px;
+}
+
+.enroll-now {
+    background-color: #00c6d7;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.welcome-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+}
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.classes-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.class-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.class {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.teachers-section {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.teachers-section h2{
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.teachers-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.teachers-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.teachers-card img {
+    width: 100px;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.teachers-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 15px 0 5px;
+}
+
+.teachers-card p {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background-color: #002244;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section {
+    max-width: 200px;
+}
+
+.footer-section h3 {
+    color: #f7f3e2;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-links a img {
+    width: 20px;
+    margin-right: 10px;
+}
