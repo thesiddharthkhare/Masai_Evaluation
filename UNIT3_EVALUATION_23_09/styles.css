@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo {
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav .booking button {
+    background-color: #f4b400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    color: white;
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.booking-form {
+    display: flex;
+    gap: 10px;
+}
+
+.booking-form input, .booking-form select, .booking-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+.booking-form button {
+    background-color: #ebd066;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #f0eded;
+}
+
+.feature-item {
+    width: 15%;
+    text-align: center;
+}
+
+.feature-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#rooms {
+    text-align: center;
+}
+
+.room-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.room {
+    width: 23%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.room img {
+    width: 100%;
+    height: auto;
+}
+
+#testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial img {
+    width: 150px;
+}
+
+#call-to-action {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cta .button {
+    background-color: rgb(249, 249, 248);
+    padding: 10px 20px;
+}
+
+.gallery .button{
+    background-color: #f4b400;
+    padding: 10px 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #ff7f50;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+.hero1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.hero1-images img {
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+
+.blog {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.blog h2 {
+    margin-bottom: 40px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog-grid article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-grid h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.blog-grid p {
+    color: #666;
+}
+
+.blog-grid a {
+    display: block;
+    margin-top: 15px;
+    color: #ff7f50;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #ff7f50;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #e06d40;
+}
