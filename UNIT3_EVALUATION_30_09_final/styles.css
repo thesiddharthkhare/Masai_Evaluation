@@ -1,0 +1,469 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #01030d;
+  font-family: "Jost", sans-serif;
+}
+
+nav {
+  margin: 2rem 5rem;
+  border: 1px solid #fff;
+  border-radius: 48px;
+}
+
+.container {
+  z-index: 99;
+}
+.topimg {
+  background-image: url("https://i.ibb.co/X8W40bD/Floor-Pattern.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  top: 0;
+  width: 100%;
+  height: 10rem;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.img1 {
+  background-image: url("https://i.ibb.co/gjJZxMM/Background.png");
+  opacity: 0.6;
+  position: absolute;
+  z-index: 9;
+  width: 100px;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  top: -55rem;
+  z-index: 0;
+  background-position: -25rem;
+}
+
+.navItems {
+  padding: 10px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listItems ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.listItems ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.getStartBtn button img {
+  width: 20px;
+  height: 24px;
+  transition: 0.5s ease-in;
+}
+.getStartBtn button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  padding: 8px 15px;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.getStartBtn button:hover .arrowButton {
+  transform: rotate(180deg);
+}
+
+.hamburger {
+  display: none;
+  padding: 4px;
+  margin-bottom: -5px;
+}
+.hamburger img {
+  width: 32px;
+  height: 32px;
+}
+
+.MobilelistItems {
+  position: absolute;
+  display: none;
+  justify-content: space-between;
+  gap: 50px;
+  flex-direction: column;
+  width: 100%;
+  left: 0 !important;
+  top: -1.3rem;
+  background: #101412;
+  border-radius: 32px;
+  padding: 20px 0;
+}
+
+.MobilelistItems ul {
+  display: flex !important;
+  list-style: none;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.MobilelistItems ul li {
+  list-style: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.openNav {
+  display: flex !important;
+}
+
+.closenav {
+  color: #8d96b2;
+}
+
+.section1 {
+  background-image: url("https://i.ibb.co/qkV7yBN/BG-Pattern.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.heroHeading {
+  font-size: 80px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  width: 60%;
+  margin: 3rem auto;
+}
+.heroHeading span {
+  background: linear-gradient(94.68deg, #ff0276 2.51%, #7209b7 56.42%);
+  background-clip: text;
+  color: transparent;
+}
+
+.heroText {
+  color: #daddd8;
+  text-align: center;
+  font-size: 24px;
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.buttonGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.buttonGrid button img {
+  width: 20px;
+  height: 24px;
+  transition: 0.5s ease;
+}
+.buttonGrid .btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(205.14deg, #3f37c9 30.04%, #4cc9f0 186.57%);
+  color: #fff;
+  border-radius: 20px;
+  width: 200px !important;
+  padding: 8px 14px;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.buttonGrid .btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 8px 14px;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  background: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonGrid button:hover .arrowButton {
+  transform: rotate(180deg);
+}
+
+.bottomHeading {
+  width: 50%;
+  margin: 3rem auto;
+}
+.bottomHeading h6 {
+  text-align: center;
+  color: #daddd8;
+  font-size: 24px;
+  padding: 3rem 0;
+}
+.partner {
+  border: 1px solid rgba(255, 255, 255, 0.275);
+  border-radius: 32px;
+}
+.partnerImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partnerImage img {
+  width: 20%;
+  height: auto;
+}
+
+.miniContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.headingText {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 10rem 2rem;
+}
+.headingText span {
+  color: #3c00ff;
+}
+
+.section2 {
+  background-image: url("https://i.ibb.co/gjJZxMM/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headingText2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.headingText2 span {
+  color: #3603dc;
+}
+
+.section2ImgGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 60%;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  padding: 20px;
+}
+.section2ImgGrid img {
+  width: 20%;
+  height: 20%;
+}
+
+.section3Heading {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.section3Heading span {
+  background: linear-gradient(94.68deg, #c4015c 2.51%, #8007d0 86.36%);
+  background-clip: text;
+  color: transparent;
+}
+
+.section3Heading p {
+  color: #daddd8;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.ltemList {
+  padding: 20px 30px;
+  color: #fff;
+  width: 70%;
+  margin: 3rem auto;
+  border-radius: 48px;
+  overflow: visible !important;
+  border: 1px solid white;
+  background: linear-gradient(
+    122.35deg,
+    rgba(255, 255, 255, 0.21) 19.78%,
+    rgba(255, 255, 255, 0) 187.39%
+  );
+}
+.ltemList h4 {
+  font-size: 32px;
+  color: #fff;  
+  font-weight: 700;
+  text-align: start;
+}
+.ltemList h4 span{
+    background: linear-gradient(94.68deg, #ff0276 2.51%, #7209b7 86.36%);
+    background-clip: text;
+    color: transparent;
+}
+
+.itemGrid{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    position: relative;
+
+}
+.endImg img{
+    width: 475px;
+    height: auto;
+    position: absolute;
+    right: -150px;
+    top: -80px;
+}
+
+.listarea ul{
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.listarea ul li{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+.listarea ul li img{
+    width: 22px;
+    height: 22px;
+    margin-right: 1rem;
+}
+
+@media (max-width: 912px) {
+  nav {
+    margin: 2rem 2rem;
+  }
+  .listItems {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .bottomHeading {
+    width: 90%;
+    margin: 3rem auto;
+  }
+  .headingText {
+    font-size: 24px;
+  }
+  .section2ImgGrid {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .section3Heading {
+    width: 90%;
+    margin: 3rem auto;
+    font-size: 32px;
+  }
+  .section3Heading p {
+    padding: 20px 0;
+    font-size: 18px;
+  }
+
+  .ltemList{
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .endImg{
+    display: block;
+  }
+}
+
+@media (max-width: 440px) {
+  nav {
+    margin: 2rem 1rem;
+  }
+  .getStartBtn span {
+    display: none;
+  }
+  .heroHeading {
+    width: 90%;
+    font-size: 38px;
+  }
+  .buttonGrid {
+    flex-direction: column;
+  }
+
+  .buttonGrid .btn1 {
+    width: 70%;
+    justify-content: center;
+  }
+  .buttonGrid .btn2 {
+    width: 70% ;
+    justify-content: center;
+  }
+  .bottomHeading {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+
+  .headingText {
+    font-size: 18px;
+    margin: 10rem 0rem;
+  }
+  .section2ImgGrid {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .headingText2 {
+    padding: 0;
+    font-size: 24px;
+  }
+  .section2ImgGrid {
+    padding: 0;
+  }
+  .section3Heading {
+    width: 90%;
+    font-size: 24px;
+    margin: 3rem auto;
+  }
+  .section3Heading p {
+    padding: 20px 0;
+    font-size: 16px;
+  }
+}
