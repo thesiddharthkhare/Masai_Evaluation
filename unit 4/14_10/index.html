@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Product Showcase</h1>
+        <div id="cart">
+            <span>Cart: <span id="cart-counter">0</span></span>
+        </div>
+    </header>
+
+    <!-- Search and Filters -->
+     <section id="filters">
+        <input type="text" id="search-bar" placeholder="Search products">
+        <select id="category-filter">
+            <option value="">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Wearables">Wearables</option>
+            <option value="Home & Kitchen">Home & Kitchen</option>
+        </select>
+        <input type="number" id="min-price" placeholder="Min Price">
+        <input type="number" id="max-price" placeholder="Max Price">
+        <button id="filter-btn">Apply Filters</button>
+
+        <!-- Sorting -->
+         <select id="sort-options">
+            <option value="default">Sort by</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name-asc">Name: A to Z</option>
+            <option value="name-desc">Name: Z to A</option>
+         </select>
+     </section>
+
+     <section id="product-list"></section>
+
+     <script src="script.js"></script>
+</body>
+</html>
